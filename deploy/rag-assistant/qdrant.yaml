@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: qdrant
-          image: qdrant/qdrant:1.20.0
+          image: qdrant/qdrant:v1.20.0
           ports:
             - containerPort: 6333
           readinessProbe:
