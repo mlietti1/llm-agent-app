@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
