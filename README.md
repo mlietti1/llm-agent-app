@@ -4,7 +4,7 @@ A small retrieval-augmented generation (RAG) service: ask a question in natural 
 
 Built as a hands-on project to practice shipping an AI service the way it would go to production: configurable, tested, containerized, and deployed to Kubernetes with GitOps (Argo CD), with secrets kept out of Git and out of images.
 
-> The platform it runs on (kind cluster, Argo CD, Prometheus and Grafana, provisioned with Terraform) lives in a separate project: `<link to your platform repository>`.
+> The platform it runs on (kind cluster, Argo CD, Prometheus and Grafana, provisioned with Terraform) lives in a separate project: `https://github.com/mlietti1/k8s-gitops-lab`.
 >
 > **Status:** the application, tests, Docker image and Argo CD deployment are in place. Metrics and dashboards, CI and an evaluation set are in progress. See the [Roadmap](#roadmap).
 
